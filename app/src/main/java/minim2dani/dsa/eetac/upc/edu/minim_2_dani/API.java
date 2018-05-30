@@ -9,9 +9,10 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
  */
 
 public class API {
+
     private static API instance;
 
-    private static final String baseUrl = "https://api.dsamola.tk/";
+    private static final String baseUrl = "http://api.dsamola.tk/";
     public static APII api;
 
     private API(){
