@@ -15,4 +15,7 @@ public interface APII {
     @GET("/books")
     Call<List<Book>> getBooks();
 
+    @GET("/books/{id}")
+    Call<Book_detail> getDetails(@Path("id") String id);
+
 }
